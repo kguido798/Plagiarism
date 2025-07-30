@@ -25,6 +25,10 @@ def calculate_plagiarism(set1, set2):
 file1 = input("Enter the first essay filename (e.g. essay1.txt): ")
 file2 = input("Enter the second essay filename (e.g. essay2.txt): ")
 
+if not file1.endswith(".txt"):
+    file1 += ".txt"
+if not file2.endswith(".txt"):
+    file2 += ".txt"
 # Preprocess both essays
 essay1_words = preprocess_text(file1)
 essay2_words = preprocess_text(file2)
