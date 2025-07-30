@@ -41,4 +41,5 @@ if essay1_words and essay2_words:
         print("⚠️  Result: Plagiarism Detected!")
     else:
         print("✅  Result: No Plagiarism Detected.")
+input("\nPress Enter to exit...")
 
