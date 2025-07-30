@@ -1,6 +1,12 @@
 import os
 import string
 
+# The essay content
+essay1_text = """ Programming is the backbone of software engineering, serving as the primary tool for transforming ideas into functional applications. It enables engineers to design, develop, and optimize software systems that solve real-world problems. Without programming, the theoretical aspects of software design would remain abstract and unusable. Mastery of programming languages allows engineers to implement algorithms, debug code, and ensure the efficiency of software. Furthermore, programming fosters creativity and innovation, as engineers can experiment with new solutions and technologies. In essence, programming is the bridge between concept and execution, making it indispensable in software engineering.
+"""
+
+essay2_text = """ Programming is a fundamental skill in software engineering, as it is the process through which software solutions are built and maintained. It allows engineers to create systems that automate tasks, improve productivity, and address complex challenges. By writing code, engineers can bring software designs to life, ensuring they meet user requirements and perform reliably. Additionally, programming encourages problem-solving and logical thinking, which are critical for optimizing software performance. As technology evolves, programming remains at the core of innovation, enabling engineers to adapt and develop cutting-edge applications. Thus, programming is not just a skill but a necessity in the field of software engineering.
+"""
 def preprocess_text(file_path):
     """Reads a text file, removes punctuation, and converts to a set of lowercase words."""
     try:
